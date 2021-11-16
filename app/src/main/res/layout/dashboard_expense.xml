@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type:"
+            android:textColor="@color/nav_header"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:id="@+id/type_expense_dsh"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Amount:"
+            android:textColor="@color/expense_amount"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/amount_expense_dsh"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 Nov 2020"
+            android:id="@+id/date_expense_dsh"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/date_color"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
